@@ -1,0 +1,29 @@
+{
+    "name": "tomhaj/guzzle-oauth2",
+    "description": "Guzzle OAuth2",
+    "type": "library",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "Tomasz Hajduk",
+            "email": "thajduk@codenetium.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "6.2.*",
+        "symfony/options-resolver": "^3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tomhaj\\GuzzleOAuth2\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tomhaj\\GuzzleOAuth2\\Tests\\" : "tests/"
+        }
+    }
+}
